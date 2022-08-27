@@ -1,0 +1,4 @@
+.background {
+  opacity: 0.4;
+  backdrop-filter: brightness(0.7);
+}

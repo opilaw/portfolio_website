@@ -1,0 +1,39 @@
+.researchpapers {
+  min-height: 100vh;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  font-family: 'Anek Kannada', sans-serif;
+  font-size: 24px;
+  color: white;
+  padding-left: 6rem;
+  padding-top: 8rem;
+}
+
+.researchpapers::after {
+  content: '';
+  background-image: url('../../assets/stars.png');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.rp__1 {
+  position: relative;
+  padding-bottom: 8rem;
+}
+.rp__1::after {
+  content: '';
+  position: absolute;
+  margin-bottom: 2rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 1px solid white;
+  z-index: -1;
+  width: 40%;
+}

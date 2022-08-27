@@ -1,0 +1,134 @@
+.cv-wrapper {
+  min-height: 100vh;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 8rem;
+}
+.professional__summary span {
+  font-size: 24px;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+
+  padding-bottom: 4rem;
+  gap: 4rem;
+}
+.center__content {
+  font-family: 'Anek Kannada', sans-serif;
+  line-height: 2;
+  letter-spacing: 0.25rem;
+  font-size: 20px;
+  color: white;
+  position: relative;
+}
+
+.professional__summary__content {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+}
+.list__content {
+  position: relative;
+}
+.list__content ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  font-family: 'Anek Kannada', sans-serif;
+  line-height: 2;
+  letter-spacing: 0.25rem;
+  font-size: 20px;
+  color: white;
+  padding-left: 2rem;
+}
+.list__content::after {
+  content: '';
+  position: absolute;
+
+  left: 6rem;
+  right: 0;
+  bottom: -7rem;
+
+  border-top: 1px solid white;
+  z-index: -1;
+  width: 40%;
+}
+
+.web__development {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  gap: 4rem;
+}
+.line {
+  position: relative;
+}
+.line::after {
+  content: '';
+  position: absolute;
+
+  left: 6rem;
+  right: 0;
+  bottom: 1rem;
+
+  border-top: 1px solid white;
+  z-index: -1;
+  width: 40%;
+}
+.line2 {
+  position: relative;
+}
+.line2::after {
+  content: '';
+  position: absolute;
+
+  left: 6rem;
+  right: 0;
+  bottom: 1rem;
+
+  border-top: 1px solid white;
+  z-index: -1;
+  width: 40%;
+}
+.web__development span {
+  font-size: 24px;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  gap: 4rem;
+}
+
+.vke-web {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.vke-web h1 {
+  font-size: 24px;
+  color: white;
+  font-family: 'Space Mono', monospace;
+}
+.vke-web h2 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Space Mono', monospace;
+}
+.vke-web ul li {
+  font-size: 20px;
+  color: white;
+  font-family: 'Anek Kannada', sans-serif;
+  line-height: 2;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.vke-web ul {
+  padding-left: 2rem;
+  gap: 4rem;
+}

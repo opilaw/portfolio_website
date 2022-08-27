@@ -1,0 +1,136 @@
+.wrapper-web {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 12rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  min-height: 100vh;
+}
+.wrapper-web::after {
+  content: '';
+  background-image: url('../../assets/stars.png');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.wrapper-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 4rem;
+}
+.section__image {
+  width: 40%;
+}
+.parent-wrapper {
+  display: flex;
+  gap: 6rem;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: 'Space Mono', monospace;
+  color: white;
+  font-size: 24px;
+}
+.project-content {
+  font-family: 'Anek Kannada', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+
+  width: 100%;
+}
+.section__image-1 {
+  width: 20%;
+}
+.section__image-2 {
+  width: 20%;
+}
+.section__image-3 {
+  width: 20%;
+}
+.project-profile__data__bank {
+  position: relative;
+}
+.project-profile__data__bank::after {
+  content: '';
+  position: absolute;
+
+  left: 6rem;
+  right: 0;
+  bottom: -7rem;
+
+  border-top: 1px solid white;
+  z-index: -1;
+  width: 80%;
+}
+.project-weather {
+  position: relative;
+}
+
+.project-weather::after {
+  content: '';
+  position: absolute;
+
+  left: 6rem;
+  right: 0;
+  bottom: -7rem;
+
+  border-top: 1px solid white;
+  z-index: -1;
+  width: 80%;
+}
+.project-portfolio {
+  position: relative;
+}
+.project-portfolio::after {
+  content: '';
+  position: absolute;
+
+  left: 6rem;
+  right: 0;
+  bottom: -7rem;
+
+  border-top: 1px solid white;
+  z-index: -1;
+  width: 80%;
+}
+.project-maze {
+  position: relative;
+}
+.project-maze::after {
+  position: relative;
+  content: '';
+  position: absolute;
+
+  left: 6rem;
+  right: 0;
+  bottom: -7rem;
+
+  border-top: 1px solid white;
+  z-index: -1;
+  width: 80%;
+}

@@ -1,0 +1,283 @@
+.wrapper-icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 6rem;
+  gap: 2rem;
+  border-width: 2.5px;
+  border-style: none solid solid solid;
+  border-color: white;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+  padding-bottom: 6rem;
+}
+
+.UX {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Anek Kannada', sans-serif;
+  gap: 2rem;
+  color: white;
+}
+.UX-technology {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  list-style: none;
+  box-sizing: border-box;
+}
+.UX-technology li {
+  width: 50%;
+  font-weight: 150;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+.UX-technology li p {
+  align-text: center;
+  white-space: wrap;
+}
+.UX-technology li img {
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  border-radius: 50%;
+}
+.UX h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  font-weight: 200;
+}
+.title-technology {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: 'Space Mono', monospace;
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+}
+.UX-section {
+  display: flex;
+  flex-direction: flex-start;
+}
+
+.Web {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Anek Kannada', sans-serif;
+  color: white;
+  gap: 2rem;
+}
+.web-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  list-style: none;
+  box-sizing: border-box;
+}
+.web-section li {
+  width: 100%;
+  font-weight: 150;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+.web-section li img {
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  border-radius: 50%;
+}
+.Web h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  font-weight: 200;
+
+  display: flex;
+  flex-direction: flex-start;
+}
+.Box2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Anek Kannada', sans-serif;
+  color: white;
+}
+.number1 {
+  font-weight: 300;
+  font-size: 4rem;
+}
+.description1 {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#d1-1,
+#d1-2 {
+  line-height: 2.5rem;
+  font-size: 24px;
+}
+#d1-3,
+#d1-4 {
+  line-height: 2rem;
+  font-size: 20px;
+}
+#d1-3 {
+  width: 100%;
+}
+#d1-4 {
+  width: 100%;
+}
+.description2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bulb__img {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  width: 100%;
+}
+#bulb {
+  width: 30%;
+}
+.certificates {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.certificate__1 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 24px;
+  font-family: 'Anek Kannada', sans-serif;
+  font-weight: 300;
+}
+@media screen and (min-width: 1025px) and (max-width: 1350px) {
+  .title-technology {
+    align-self: center;
+  }
+  .UX-section {
+    align-self: center;
+  }
+  .UX-technology {
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .UX {
+    align-self: center;
+    gap: 4rem;
+  }
+  .UX-technology li {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .Web-title {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .number1 {
+    font-size: 6rem;
+  }
+  #d1-1,
+  #d1-2 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+  #d1-3,
+  #d1-4 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+  .Box2 {
+    gap: 1rem;
+
+    padding-bottom: 6rem;
+  }
+  .description1 {
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .title-technology {
+    align-self: center;
+    font-size: 4rem;
+  }
+  .UX-section {
+    align-self: center;
+    font-size: 3.2rem;
+  }
+  .UX-technology {
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .UX {
+    align-self: center;
+    gap: 4rem;
+  }
+  .UX h1 {
+    font-size: 3.2rem;
+  }
+  .UX-technology li {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .Web-title {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .web-section {
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6rem;
+  }
+  .web-section p {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .Web h1 {
+    font-size: 3.2rem;
+  }
+  .Web {
+    gap: 6rem;
+  }
+  .number1 {
+    font-size: 6rem;
+  }
+  #d1-1,
+  #d1-2 {
+    font-size: 2.8rem;
+    line-height: 1.5;
+  }
+  #d1-3,
+  #d1-4 {
+    font-size: 2.8rem;
+    line-height: 1.5;
+  }
+  .Box2 {
+    gap: 1rem;
+    padding-bottom: 6rem;
+  }
+  .description1 {
+    gap: 2rem;
+  }
+  .wrapper-icons {
+    gap: 8rem;
+  }
+  .certificates {
+    gap: 6rem;
+  }
+}

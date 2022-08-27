@@ -1,0 +1,143 @@
+/*   color variables */
+$clr-primary: #d50000;
+$clr-primary-hover: #29e6a7;
+$clr-primary-dark: #039d69;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+
+/*   border radius */
+$radius: 0.2rem;
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Oxygen, sans-serif;
+  margin: 2rem;
+}
+.footer {
+  position: relative;
+  bottom: 2rem;
+}
+.ux {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  min-height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.wrapper::after {
+  content: '';
+  background-image: url('../../assets/stars.png');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+#pen {
+  width: 30%;
+  position: fixed;
+  right: 30rem;
+}
+.card {
+  overflow: hidden;
+
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+
+  width: 80%;
+
+  padding: 2rem;
+
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+}
+.card img {
+  height: 12rem;
+  width: 80%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+.card title {
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+.card description {
+  padding: 0 1rem;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Space Mono', monospace;
+  color: white;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+.card__btn {
+  padding: 1.5rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Space Mono', monospace;
+}
+
+.card:hover {
+  transform: scale(1.02);
+
+  color: white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card__btn:hover {
+}
+@media screen and (min-width: 1360px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: 378px 117px;
+    justify-content: inherit;
+    /* align-content: normal; */
+
+    text-align: center;
+
+    /* width: 80%; */
+    align-items: baseline;
+  }
+  .card {
+    margin: 8rem;
+    height: 35rem;
+  }
+}

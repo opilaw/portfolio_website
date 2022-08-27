@@ -1,0 +1,22 @@
+.wrapper-ux {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-item: center;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.image__container {
+  padding-top: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#image {
+  width: 90%;
+}
+.footer {
+  display: flex;
+  padding-top: 4rem;
+}

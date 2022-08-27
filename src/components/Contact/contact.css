@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  position: relative;
+  min-height: 100vh;
+
+  line-height: 5rem;
+
+  font-family: 'Anek Kannada', sans-serif;
+
+  color: white;
+  padding-left: 2rem;
+}
+.container::after {
+  content: '';
+  background-image: url('../../assets/stars.png');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+#name {
+  font-size: 24px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 600;
+}
+#info {
+  font-size: 20px;
+  font-weight: 400;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
+  padding-top: 6rem;
+}
+#message {
+  width: 30%;
+  rotate: 25deg;
+}
+.wrapper-image-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
