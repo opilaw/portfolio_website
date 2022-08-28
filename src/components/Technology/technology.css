@@ -127,11 +127,13 @@
 #d1-2 {
   line-height: 2.5rem;
   font-size: 24px;
+  padding-right: 4rem;
 }
 #d1-3,
 #d1-4 {
   line-height: 2rem;
   font-size: 20px;
+  padding-right: 4rem;
 }
 #d1-3 {
   width: 100%;
@@ -157,6 +159,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding-right: 4rem;
 }
 .certificate__1 {
   display: flex;
@@ -165,6 +168,9 @@
   font-size: 24px;
   font-family: 'Anek Kannada', sans-serif;
   font-weight: 300;
+}
+.footer {
+  padding-right: 4rem;
 }
 @media screen and (min-width: 1025px) and (max-width: 1350px) {
   .title-technology {

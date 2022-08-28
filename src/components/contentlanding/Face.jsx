@@ -4,7 +4,7 @@ import './face.css'
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Technology from '../Technology/Technology'
-import intro from '../../assets/ryj.png'
+import intro from '../../assets/open.png'
 import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion'
 
 function Face() {

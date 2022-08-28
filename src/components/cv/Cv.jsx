@@ -199,8 +199,8 @@ function Cv() {
             <div className="vke-web">
               {' '}
               <h1>
-                Copenhagen School of Design and Technology- KEA | BSc in IT |
-                Digital Concept Development | Sept 2014 - Jun 2018{' '}
+                Copenhagen School of Design and Technology- KEA | BS- Bachelor
+                of Science | Digital Concept Development | Sept 2014 - Jun 2018{' '}
               </h1>
               <h2>Top of the students on the year</h2>
               <ul>
@@ -211,6 +211,40 @@ function Cv() {
                 <li>
                   Winning the competition for the best Mobile Application for
                   Danske Bank
+                </li>
+              </ul>
+            </div>
+            <div className="vke-web">
+              {' '}
+              <h1>
+                Czestochowa University | BA- Bachelor of Arts | Administrative
+                Law | Oct 2010- Jun 2013{' '}
+              </h1>
+              <ul>
+                <li>
+                  Winning the contest of the best student of the year 2011-2013
+                  getting 1st place scholarship for the scientific achievement
+                  and best grades achievements
+                </li>
+                <li>
+                  Winning the contest of one of the best students in the country
+                  and prize from Ministry of Education
+                </li>
+                <li>
+                  Research paper: Judgment of Administration Court Chief | 14
+                  september 2012,sygn. act I OSK 297/11
+                </li>
+                <li>
+                  Research paper: Internet as a Tool of Democracy System| ISSN
+                  1898-9233
+                </li>
+                <li>
+                  Research paper: Student's huts in Beskidy as a phenomenom of
+                  youth's and tourist's culture
+                </li>
+                <li>
+                  The Economicial, Law and Sociable Aspects to Get the Space of
+                  the Universe by Human | Pragmata Tes Oikonomias, 2011, z. 5,
                 </li>
               </ul>
             </div>

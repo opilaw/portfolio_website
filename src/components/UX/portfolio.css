@@ -44,6 +44,7 @@ body {
   gap: 2rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
+  min-height: 100vh;
 }
 .wrapper::after {
   content: '';
@@ -56,10 +57,10 @@ body {
   position: absolute;
   z-index: -1;
 }
+.portfolio__img {
+}
 #pen {
   width: 30%;
-  position: fixed;
-  right: 30rem;
 }
 .card {
   overflow: hidden;
@@ -101,7 +102,15 @@ body {
   gap: 2rem;
   padding-bottom: 2rem;
 }
+.link-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .card__btn {
+  display: flex;
+  align-items: center;
   padding: 1.5rem;
   font-family: inherit;
   font-weight: bold;

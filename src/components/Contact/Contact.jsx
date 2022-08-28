@@ -9,7 +9,7 @@ function Contact() {
         <text id="name">Olga Paulina Pilawka</text>
         <text id="info">
           <strong>Linkedin: </strong>
-          https://www.linkedin.com/in/olga-paulina-pilawka/
+          <span>https://www.linkedin.com/in/olga-paulina-pilawka/</span>
         </text>
         <text id="info">
           <strong>Mobile:</strong> +49 151 41279815

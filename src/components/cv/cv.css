@@ -39,6 +39,7 @@
 .list__content ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+
   grid-template-rows: auto;
   font-family: 'Anek Kannada', sans-serif;
   line-height: 2;
@@ -131,4 +132,12 @@
 .vke-web ul {
   padding-left: 2rem;
   gap: 4rem;
+}
+@media only screen and (max-width: 900px) {
+  .list__content ul {
+    grid-template-columns: none;
+  }
+  .footer {
+    gap: 4rem;
+  }
 }
