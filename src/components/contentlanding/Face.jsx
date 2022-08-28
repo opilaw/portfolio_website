@@ -25,12 +25,12 @@ function Face() {
           </motion.div>
 
           <div className="buttons_landing">
-            <button id="button_landing_1">
-              <Link to="/contact">Contact</Link>
-            </button>
-            <button id="button_landing_2">
-              <Link to="/portfolio">Portfolio</Link>
-            </button>
+            <Link to="/contact">
+              <button id="button_landing_1">Contact</button>
+            </Link>
+            <Link to="/portfolio">
+              <button id="button_landing_2">Portfolio</button>
+            </Link>
           </div>
         </div>
       </div>

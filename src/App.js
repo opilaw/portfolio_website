@@ -13,6 +13,7 @@ import Cv from './components/cv/Cv'
 import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import ResearchPapers from './components/ResearchPapers/ResearchPapers'
+import Art from './components/artportfolio/artportfolio.jsx'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/researchpapers" element={<ResearchPapers />} />
           <Route path="/webportfolio" element={<WebPortfolio />} />
           <Route path="/ux" element={<Ux />} />
+          <Route path="/art" element={<Art />} />
         </Routes>
       </div>
     </Router>

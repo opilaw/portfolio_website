@@ -26,7 +26,7 @@ function Ux() {
         <Card
           img={skull}
           description="My own art, which are different techniques paintings and drawings"
-          linkUrl="/"
+          linkUrl="/art"
         />
         <div className="portfolio__img">
           <img src={pen} id="pen"></img>
