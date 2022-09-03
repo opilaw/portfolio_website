@@ -138,6 +138,8 @@ body {
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: 378px 117px;
     justify-content: inherit;
+    padding-left: 8rem;
+
     /* align-content: normal; */
 
     text-align: center;
@@ -146,7 +148,9 @@ body {
     align-items: baseline;
   }
   .card {
-    margin: 8rem;
     height: 35rem;
+  }
+  .ux {
+    min-width: 100vh;
   }
 }

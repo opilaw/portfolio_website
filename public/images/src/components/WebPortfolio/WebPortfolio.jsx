@@ -2,8 +2,7 @@ import React from 'react'
 import './webportfolio.css'
 import Section from './Section.jsx'
 import app from '../../assets/app.jpg'
-import profile1 from '../../assets/profile1.png'
-import profile2 from '../../assets/profile2.png'
+
 import profile3 from '../../assets/profile3.png'
 import profile4 from '../../assets/profile4.png'
 import weather1 from '../../assets/weather1.png'
@@ -31,8 +30,8 @@ function WebPortfolio() {
         <Section
           title="Profile Data Bank System | Vue.js"
           content="Profile Data Bank System is an administrative web application created for Von Keler Engineering. Co-developed with other developer mainly in the Vue.js framework, CSS and HTML. I was responsible for the front-end part of the application. Moreover I fully designed this system by myself. The system handles profile and resume sharing of the employees between the companies, which would like to lent the employee. The primary user of this application are employees on the managerial level, however employees can access to their own personalised dashboard to see with which company their profile was shared with"
-          img={profile1}
-          img1={profile2}
+          img={'/images/profile1.png'}
+          img1={'/images/profile2.png'}
           img2={profile3}
           img3={profile4}
         />

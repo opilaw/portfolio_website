@@ -1,6 +1,5 @@
 import React from 'react'
 import './contact.css'
-import message from '../../assets/message.svg'
 
 function Contact() {
   return (
@@ -19,7 +18,12 @@ function Contact() {
         </text>
       </div>
       <div className="wrapper-image-contact">
-        <img src={message} alt="message" id="message" />
+        <img
+          src={process.env.PUBLIC_URL + '/images/message.svg'}
+          alt="message"
+          id="message"
+        />
+        ;
       </div>
     </div>
   )
