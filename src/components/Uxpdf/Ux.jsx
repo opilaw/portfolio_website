@@ -1,28 +1,23 @@
 import React from 'react'
 import './ux.css'
-import defatt from '../../assets/Deffatt.svg'
-import danske from '../../assets/DanskeBank.png'
-import ujji from '../../assets/UJJI.png'
-import dsv from '../../assets/DSV.png'
-import cgi from '../../assets/MyCivis.svg'
 
 function Ux() {
   return (
     <div className="wrapper-ux">
       <div className="image__container">
-        <img src={defatt} id="image"></img>
+        <img src={'/images/Deffatt.svg'} id="image"></img>
       </div>
       <div className="image__container">
-        <img src={danske} id="image"></img>
+        <img src={'/images/DanskeBank.png'} id="image"></img>
       </div>
       <div className="image__container">
-        <img src={ujji} id="image"></img>
+        <img src={'/images/UJJI.png'} id="image"></img>
       </div>
       <div className="image__container">
-        <img src={dsv} id="image"></img>
+        <img src={'/images/DSV.png'} id="image"></img>
       </div>
       <div className="image__container">
-        <img src={cgi} id="image"></img>
+        <img src={'/images/MyCivis.svg'} id="image"></img>
       </div>
       <div className="footer">
         {' '}
