@@ -18,7 +18,7 @@ import Art from './components/artportfolio/artportfolio.jsx'
 function App() {
   return (
     // <div className="App">
-    <Router>
+    <Router basename="/">
       <div className="App">
         <Header />
         <Routes>

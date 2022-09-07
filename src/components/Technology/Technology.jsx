@@ -17,6 +17,7 @@ import dc from '../../assets/datacamp.svg'
 import dl from '../../assets/dl.svg'
 import el from '../../assets/elts.svg'
 import bulb from '../../assets/bulb.svg'
+import tailwind from '../../assets/Tailwind.png'
 import { useInView } from 'react-intersection-observer'
 import {
   animate,
@@ -77,6 +78,11 @@ function Technology() {
             {' '}
             <img src={vue} alt="vuejs" id="vue" />
             <p>VueJS</p>
+          </li>
+          <li className="tailwind">
+            {' '}
+            <img src={tailwind} alt="tailwind" id="tailwind" />
+            <p>Tailwind.css</p>
           </li>
         </ul>
       </div>
